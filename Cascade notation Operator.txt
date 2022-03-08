@@ -1,0 +1,38 @@
+//print("Example of Cascade notation(..) Operator ");
+class Demo 
+{
+  var ;
+  var ba;
+  void setA(x) 
+  { 
+    this.a = x;
+  } 
+ 
+  void setB(y) 
+  { 
+    this.b = y;
+  } 
+  void show()
+  {
+    print(this.a);
+    print(this.b);
+  }
+}  
+
+
+void main() 
+{ 
+  
+  Demo d1 = new Demo(); 
+  Demo d2 = new Demo();
+
+  // Without Cascade Notation
+  d1.setA(20);
+  d1.setB(25);
+  d1.show();
+  
+  // With Cascade Notation
+  d2..setA(10) 
+    ..setB(15)
+    ..show();  
+}

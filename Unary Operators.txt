@@ -1,0 +1,20 @@
+void main() 
+{ 
+	print("Example of Unary Operators");
+	print("postfix is the value of a before increment");
+	var x = 30;   
+	print(x++);                  //The postfix value  
+     
+	 
+	print("prefix is the value of a after increment");
+	var y = 25;  
+	print(++y);                 //The prefix value, 
+
+	print("prefix is the value of a after decrement");
+	var z = 10;  
+	print(--z);                  //The prefix value  
+	 
+	print("postfix is the value of a before decrement");
+	var u = 12;                                           
+	print(u--);   
+}           //The postfix value  

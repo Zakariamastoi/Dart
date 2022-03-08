@@ -1,0 +1,8 @@
+void main()  
+{  
+	print("Example of the Test operators");
+	var num = 10;  
+	var name = "Zakaria";  
+	print(num is int);    
+	print(name is! String );  
+}  

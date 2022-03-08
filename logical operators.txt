@@ -1,0 +1,16 @@
+void main()
+{     
+	print("Example of the logical operators");  
+		
+	bool val1 = true;
+	bool val2 = false;	
+	
+	var itom = val1 && val2;  
+	print(itom);  
+		
+	var itom1 = val1 || val2;  
+	print(itom1);  
+		
+	var itom2 = !(val1 || val2);  
+	print(itom2);   
+}  

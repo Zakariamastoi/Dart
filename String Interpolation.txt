@@ -1,0 +1,11 @@
+//print("Example of String Interpolation ");
+void main()
+{
+   String name = "Zakaria";
+   var studentName = "Muhammad Zakaria";
+   print("Name is :" + name + " studentName is :" + studentName);
+
+   var age = 22;
+   print("Name is :${name} and age is :${age}");
+}
+

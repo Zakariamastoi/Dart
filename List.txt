@@ -1,0 +1,17 @@
+// void main()
+// {
+	// List<String> myList = new List<String>(3);
+	// myList[0] = 'one';
+	// myList[1] = 'two';
+	// myList[2] = 'three';
+	// print(myList);
+// }
+
+
+void main() { 
+   var lst = new List(3); 
+   lst[0] = 12; 
+   lst[1] = 13; 
+   lst[2] = 11; 
+   print(lst); 
+}

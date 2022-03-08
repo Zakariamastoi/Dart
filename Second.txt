@@ -1,0 +1,13 @@
+class Second 
+{ 
+  void print() 
+  {
+    print("Hello World"); 
+  } 
+} 
+
+void main() 
+{ 
+  Second c = new Second(); 
+  c.print(); 
+} 

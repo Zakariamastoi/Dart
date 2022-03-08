@@ -1,0 +1,24 @@
+/*Example - 1   Syntax 1 -  condition ? exp1 : exp2*/ 
+
+// void main() 
+// { 
+	//print("Example of Conditional Operators "); 
+   // var a = 30;   
+   // var output = a > 42 ? "value greater than 10":"value lesser than equal to 30";   
+   // print(output);   
+// }  
+
+
+
+/*Example -2  Syntax 2 -   exp1 ?? expr2 */ 
+
+void main() 
+{ 
+   print("Example of Conditional Operators "); 
+   
+   var x = null;   
+   var y = 20;   
+   var val = x ?? y;   
+   print(val);   
+}  
+
